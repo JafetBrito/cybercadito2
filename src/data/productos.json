@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "titulo": "Windows 11 Pro OEM",
+    "categoria": "windows",
+    "precio": 25.99,
+    "icono": "💻",
+    "imagen": "https://images.unsplash.com/photo-1633419461186-7d40a38105ec?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Licencia digital original para 1 PC. Activación permanente y actualizaciones garantizadas.",
+    "caracteristicas": ["Entrega inmediata", "Soporte 24/7", "Clave alfanumérica original"]
+  },
+  {
+    "id": 2,
+    "titulo": "Xbox Game Pass Ultimate - 3 Meses",
+    "categoria": "xbox",
+    "precio": 35.50,
+    "icono": "🎮",
+    "imagen": "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Acceso a cientos de juegos de alta calidad en consola, PC y la nube.",
+    "caracteristicas": ["Multijugador online", "EA Play incluido", "Juegos día 1"]
+  },
+  {
+    "id": 3,
+    "titulo": "Microsoft Office 2021 Professional Plus",
+    "categoria": "office",
+    "precio": 45.00,
+    "icono": "📄",
+    "imagen": "https://images.unsplash.com/photo-1618424181497-157f25b6ce89?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Paquete completo de ofimática para profesionales y empresas. Pago único.",
+    "caracteristicas": ["Word, Excel, PowerPoint", "Licencia de por vida", "1 dispositivo Windows"]
+  }
+]

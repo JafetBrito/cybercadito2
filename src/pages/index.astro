@@ -1,11 +1,32 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import MainLayout from '../layouts/MainLayout.astro';
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<MainLayout title="Inicio">
+    <div class="flex flex-col items-center justify-center py-20 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-6">
+            Tu Setup, <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600">Sin Límites 🚀</span>
+        </h1>
+        <p class="mt-4 text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-10">
+            Software original, juegos de última generación y herramientas de productividad. Todo a un clic de distancia.
+        </p>
+        <a href="/catalogo/todos" class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-bold py-4 px-8 rounded-xl hover:scale-105 transition-transform shadow-xl">
+            Explorar Catálogo Total 🌍
+        </a>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24 w-full">
+            <a href="/catalogo/windows" class="bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm hover:shadow-2xl transition border border-gray-100 dark:border-slate-700">
+                <div class="text-6xl mb-4">💻</div>
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Windows</h3>
+            </a>
+            <a href="/catalogo/xbox" class="bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm hover:shadow-2xl transition border border-gray-100 dark:border-slate-700">
+                <div class="text-6xl mb-4">🎮</div>
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Xbox</h3>
+            </a>
+            <a href="/catalogo/office" class="bg-white dark:bg-slate-800 p-8 rounded-3xl shadow-sm hover:shadow-2xl transition border border-gray-100 dark:border-slate-700">
+                <div class="text-6xl mb-4">📄</div>
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Office</h3>
+            </a>
+        </div>
+    </div>
+</MainLayout>

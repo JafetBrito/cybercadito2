@@ -1,0 +1,23 @@
+---
+import ThemeToggle from '../react/ThemeToggle.jsx';
+---
+
+<header class="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg border-b border-gray-200 dark:border-slate-800 transition-colors duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+        <a href="/" class="text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+            Cyber<span class="text-sky-500">cadito</span> 🛒
+        </a>
+        
+        <div class="flex items-center space-x-6">
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="/catalogo/todos" class="hover:text-sky-500 transition">🌟 Todo</a>
+                <a href="/catalogo/windows" class="hover:text-sky-500 transition">💻 Windows</a>
+                <a href="/catalogo/xbox" class="hover:text-sky-500 transition">🎮 Xbox</a>
+                <a href="/catalogo/office" class="hover:text-sky-500 transition">📄 Office</a>
+            </nav>
+            
+            <!-- Inyectamos la isla de React con client:load -->
+            <ThemeToggle client:load />
+        </div>
+    </div>
+</header>
