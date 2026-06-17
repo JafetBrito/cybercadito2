@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+/* Esta línea mágica rehabilita el modo oscuro manual por clase en Tailwind v4 */
+@variant dark (&:is(.dark *));
