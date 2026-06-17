@@ -7,7 +7,7 @@ export default function FloatingEmojis() {
         // Generar un emoji cada 800ms
         const interval = setInterval(() => {
             const id = Math.random().toString(36).substring(2, 9);
-            const types = ['❤️', '👍', '💙', '🚀', '✨'];
+            const types = ['❤️', '🗝️', '💙', '🚀', '🔑'];
             const emoji = types[Math.floor(Math.random() * types.length)];
             const left = Math.floor(Math.random() * 100); // Posición horizontal aleatoria
             const duration = Math.random() * 4 + 5; // Duración entre 5 y 9 segundos
