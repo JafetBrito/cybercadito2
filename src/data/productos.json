@@ -3,30 +3,280 @@
     "id": 1,
     "titulo": "Windows 11 Pro OEM",
     "categoria": "windows",
-    "precio": 25.99,
+    "precio": 539.00,
     "icono": "💻",
     "imagen": "https://images.unsplash.com/photo-1633419461186-7d40a38105ec?auto=format&fit=crop&q=80&w=800",
-    "descripcion": "Licencia digital original para 1 PC. Activación permanente y actualizaciones garantizadas.",
-    "caracteristicas": ["Entrega inmediata", "Soporte 24/7", "Clave alfanumérica original"]
+    "descripcion": "Licencia digital original para 1 PC. Activación permanente vinculada a la placa base. Ideal para profesionales y gamers que buscan el máximo rendimiento.",
+    "caracteristicas": ["Entrega inmediata", "Soporte 24/7", "Clave de 25 caracteres", "Actualizaciones de por vida"]
   },
   {
     "id": 2,
-    "titulo": "Xbox Game Pass Ultimate - 3 Meses",
-    "categoria": "xbox",
-    "precio": 35.50,
-    "icono": "🎮",
-    "imagen": "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
-    "descripcion": "Acceso a cientos de juegos de alta calidad en consola, PC y la nube.",
-    "caracteristicas": ["Multijugador online", "EA Play incluido", "Juegos día 1"]
+    "titulo": "Windows 10 Pro OEM",
+    "categoria": "windows",
+    "precio": 409.00,
+    "icono": "💻",
+    "imagen": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "El sistema operativo más estable del mercado. Licencia original para 1 PC. Incluye opción gratuita para actualizar a Windows 11 Pro cuando lo desees.",
+    "caracteristicas": ["Actualizable a Windows 11", "BitLocker incluido", "Escritorio Remoto"]
   },
   {
     "id": 3,
+    "titulo": "Windows 11 Home Retail",
+    "categoria": "windows",
+    "precio": 609.00,
+    "icono": "💻",
+    "imagen": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Licencia Retail (transferible a otro equipo en el futuro). Perfecta para uso doméstico, estudiantes y creadores de contenido.",
+    "caracteristicas": ["Licencia Transferible", "Interfaz moderna", "DirectStorage para juegos"]
+  },
+  {
+    "id": 4,
+    "titulo": "Windows Server 2022 Standard",
+    "categoria": "windows",
+    "precio": 1039.00,
+    "icono": "🖥️",
+    "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "El sistema operativo preparado para la nube que aporta seguridad multinivel y opciones híbridas avanzadas para tu infraestructura de TI.",
+    "caracteristicas": ["Seguridad de núcleo seguro", "Contenedores de Windows", "16 Núcleos base"]
+  },
+  {
+    "id": 5,
+    "titulo": "Xbox Game Pass Ultimate - 3 Meses",
+    "categoria": "xbox",
+    "precio": 699.00,
+    "icono": "🎮",
+    "imagen": "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Acceso a cientos de juegos de alta calidad en consola, PC y la nube. Incluye Xbox Live Gold y suscripción a EA Play.",
+    "caracteristicas": ["Multijugador online", "EA Play incluido", "Juegos día 1"]
+  },
+  {
+    "id": 6,
+    "titulo": "Xbox Game Pass Ultimate - 1 Mes",
+    "categoria": "xbox",
+    "precio": 349.00,
+    "icono": "🎮",
+    "imagen": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Prueba el ecosistema definitivo de Xbox. Un mes de acceso total a la biblioteca de juegos en PC y Consola.",
+    "caracteristicas": ["Cloud Gaming", "Recompensas exclusivas", "Descuentos en tienda"]
+  },
+  {
+    "id": 7,
+    "titulo": "Tarjeta de Regalo Xbox $50 USD",
+    "categoria": "xbox",
+    "precio": 919.00,
+    "icono": "💳",
+    "imagen": "https://images.unsplash.com/photo-1579226905180-636b76d96082?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Añade saldo a tu cuenta de Microsoft. Compra juegos completos, complementos, paquetes de mapas y más en la tienda digital.",
+    "caracteristicas": ["Saldo sin caducidad", "Válido en la Store", "Código instantáneo"]
+  },
+  {
+    "id": 8,
     "titulo": "Microsoft Office 2021 Professional Plus",
     "categoria": "office",
-    "precio": 45.00,
+    "precio": 869.00,
     "icono": "📄",
     "imagen": "https://images.unsplash.com/photo-1618424181497-157f25b6ce89?auto=format&fit=crop&q=80&w=800",
-    "descripcion": "Paquete completo de ofimática para profesionales y empresas. Pago único.",
-    "caracteristicas": ["Word, Excel, PowerPoint", "Licencia de por vida", "1 dispositivo Windows"]
+    "descripcion": "Paquete completo de ofimática para profesionales y empresas. Pago único, sin suscripciones mensuales.",
+    "caracteristicas": ["Word, Excel, PowerPoint", "Access y Publisher", "Licencia de por vida para 1 PC"]
+  },
+  {
+    "id": 9,
+    "titulo": "Microsoft Office 2019 Professional Plus",
+    "categoria": "office",
+    "precio": 609.00,
+    "icono": "📄",
+    "imagen": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "La versión clásica de Office. Ideal para equipos con Windows 10 que no requieren las funciones colaborativas en la nube del 2021.",
+    "caracteristicas": ["Clave Retail", "Validación telefónica/online", "Soporte extendido"]
+  },
+  {
+    "id": 10,
+    "titulo": "Microsoft 365 Familia - 1 Año",
+    "categoria": "office",
+    "precio": 1209.00,
+    "icono": "☁️",
+    "imagen": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Suscripción anual para hasta 6 personas. Incluye aplicaciones premium de Office y 1 TB de almacenamiento en la nube por usuario.",
+    "caracteristicas": ["Hasta 6 usuarios", "1 TB en OneDrive p/p", "Uso en PC, Mac y Móviles"]
+  },
+  {
+    "id": 11,
+    "titulo": "Windows 10 Home OEM",
+    "categoria": "windows",
+    "precio": 369.00,
+    "icono": "💻",
+    "imagen": "https://images.unsplash.com/photo-1531297172864-45d2604d03df?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "El sistema ideal para el hogar. Rápido, seguro y compatible con casi todo el software del mercado.",
+    "caracteristicas": ["Inicio rápido", "Windows Defender", "Cortana integrada"]
+  },
+  {
+    "id": 12,
+    "titulo": "Windows Server 2019 Standard",
+    "categoria": "windows",
+    "precio": 869.00,
+    "icono": "🖥️",
+    "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Crea una infraestructura sólida y segura para tu negocio con la estabilidad comprobada de Server 2019.",
+    "caracteristicas": ["Windows Admin Center", "Protección contra amenazas", "Soporte a largo plazo"]
+  },
+  {
+    "id": 13,
+    "titulo": "Windows 11 Education",
+    "categoria": "windows",
+    "precio": 489.00,
+    "icono": "🎓",
+    "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Diseñado para entornos educativos. Incluye herramientas avanzadas de gestión y seguridad sin distracciones.",
+    "caracteristicas": ["Herramientas de aprendizaje", "Gestión simplificada", "Libre de bloatware"]
+  },
+  {
+    "id": 14,
+    "titulo": "Microsoft Project Professional 2021",
+    "categoria": "office",
+    "precio": 699.00,
+    "icono": "📊",
+    "imagen": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Mantén tus proyectos organizados y encaminados. Integra herramientas de programación avanzadas.",
+    "caracteristicas": ["Plantillas integradas", "Informes detallados", "Sincronización con Project Online"]
+  },
+  {
+    "id": 15,
+    "titulo": "Microsoft Visio Professional 2021",
+    "categoria": "office",
+    "precio": 699.00,
+    "icono": "📈",
+    "imagen": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Crea diagramas profesionales de manera intuitiva con formas y plantillas actualizadas.",
+    "caracteristicas": ["Diagramas de red", "Planos de planta", "Colaboración en tiempo real"]
+  },
+  {
+    "id": 16,
+    "titulo": "Microsoft 365 Personal - 1 Año",
+    "categoria": "office",
+    "precio": 869.00,
+    "icono": "☁️",
+    "imagen": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Suscripción para 1 persona. Ideal para potenciar la productividad en múltiples dispositivos.",
+    "caracteristicas": ["1 Cuenta de usuario", "1 TB de almacenamiento", "Skype (60 mins/mes)"]
+  },
+  {
+    "id": 17,
+    "titulo": "Office 2021 Home & Business para Mac",
+    "categoria": "office",
+    "precio": 1039.00,
+    "icono": "🍎",
+    "imagen": "https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "La suite clásica adaptada a la perfección para el ecosistema de Apple. Compra única.",
+    "caracteristicas": ["Optimizado para macOS", "Incluye Outlook", "Sin cuotas mensuales"]
+  },
+  {
+    "id": 18,
+    "titulo": "Office 2016 Professional Plus",
+    "categoria": "office",
+    "precio": 439.00,
+    "icono": "📄",
+    "imagen": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Versión económica y ligera de la suite ofimática. Excelente para equipos antiguos.",
+    "caracteristicas": ["Rendimiento optimizado", "Pago único", "Para 1 PC"]
+  },
+  {
+    "id": 19,
+    "titulo": "Xbox Live Gold - 12 Meses",
+    "categoria": "xbox",
+    "precio": 869.00,
+    "icono": "🎮",
+    "imagen": "https://images.unsplash.com/photo-1592155931584-901ac15763e3?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Disfruta de la red multijugador más avanzada, juegos gratis cada mes y descuentos exclusivos.",
+    "caracteristicas": ["Games with Gold", "Multijugador estable", "Descuentos de hasta 75%"]
+  },
+  {
+    "id": 20,
+    "titulo": "Tarjeta de Regalo Xbox $100 USD",
+    "categoria": "xbox",
+    "precio": 1819.00,
+    "icono": "💳",
+    "imagen": "https://images.unsplash.com/photo-1579226905180-636b76d96082?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "El mejor regalo para un gamer. Gran cantidad de saldo para la Store de Microsoft.",
+    "caracteristicas": ["Sin fecha de caducidad", "Entrega por correo", "Seguro y confiable"]
+  },
+  {
+    "id": 21,
+    "titulo": "Tarjeta de Regalo Xbox $25 USD",
+    "categoria": "xbox",
+    "precio": 499.00,
+    "icono": "💳",
+    "imagen": "https://images.unsplash.com/photo-1579226905180-636b76d96082?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Pequeña inyección de saldo, perfecta para comprar skins, pases de batalla o juegos indie.",
+    "caracteristicas": ["Ideal para microtransacciones", "Código digital", "Fácil de canjear"]
+  },
+  {
+    "id": 22,
+    "titulo": "Xbox Game Pass para PC - 3 Meses",
+    "categoria": "xbox",
+    "precio": 519.00,
+    "icono": "🖱️",
+    "imagen": "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Diseñado específicamente para PC Gamers. Cientos de juegos listos para descargar en tu computadora.",
+    "caracteristicas": ["App de Xbox PC", "Juegos de Bethesda", "EA Play para PC"]
+  },
+  {
+    "id": 23,
+    "titulo": "Windows Server 2022 Datacenter",
+    "categoria": "windows",
+    "precio": 1559.00,
+    "icono": "🏢",
+    "imagen": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "La edición definitiva para centros de datos altamente virtualizados y entornos en la nube.",
+    "caracteristicas": ["Máquinas virtuales ilimitadas", "Redes definidas por software", "Storage Spaces Direct"]
+  },
+  {
+    "id": 24,
+    "titulo": "SQL Server 2019 Standard",
+    "categoria": "windows",
+    "precio": 1729.00,
+    "icono": "🗄️",
+    "imagen": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Gestión de bases de datos relacionales de grado empresarial. Análisis avanzado y alta disponibilidad.",
+    "caracteristicas": ["Big Data Clusters", "Seguridad avanzada", "Inteligencia integrada"]
+  },
+  {
+    "id": 25,
+    "titulo": "Visual Studio 2022 Professional",
+    "categoria": "windows",
+    "precio": 869.00,
+    "icono": "💻",
+    "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "El entorno de desarrollo integrado (IDE) más completo para programadores individuales y equipos pequeños.",
+    "caracteristicas": ["Herramientas de depuración", "Soporte multiplataforma", "IntelliCode"]
+  },
+  {
+    "id": 26,
+    "titulo": "Office 2019 Home & Student",
+    "categoria": "office",
+    "precio": 519.00,
+    "icono": "🎓",
+    "imagen": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Lo esencial para estudiantes. Incluye las versiones clásicas de Word, Excel y PowerPoint.",
+    "caracteristicas": ["Uso no comercial", "Para 1 PC/Mac", "Soporte de instalación"]
+  },
+  {
+    "id": 27,
+    "titulo": "Xbox Game Pass Core - 6 Meses",
+    "categoria": "xbox",
+    "precio": 569.00,
+    "icono": "🎮",
+    "imagen": "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "La evolución de Xbox Live Gold. Multijugador en red y una biblioteca selecta de más de 25 juegos.",
+    "caracteristicas": ["Multijugador online", "Catálogo Core", "Descuentos de la red"]
+  },
+  {
+    "id": 28,
+    "titulo": "Minecraft Java & Bedrock Edition PC",
+    "categoria": "xbox",
+    "precio": 469.00,
+    "icono": "⛏️",
+    "imagen": "https://images.unsplash.com/photo-1605612579051-fd7d704d9ce2?auto=format&fit=crop&q=80&w=800",
+    "descripcion": "Dos grandes ediciones en una sola compra. Crea, explora y sobrevive en el mundo de bloques infinito.",
+    "caracteristicas": ["Acceso a mods (Java)", "Juego cruzado (Bedrock)", "Lanzador unificado"]
   }
 ]
