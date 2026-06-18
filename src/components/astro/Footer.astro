@@ -1,0 +1,55 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-white dark:bg-slate-900 border-t border-gray-200 dark:border-slate-800 pt-16 pb-8 mt-auto relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+            
+            <div class="md:col-span-1">
+                <a href="/" class="text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-4 inline-block">
+                    Cyber<span class="text-sky-500">cadito</span> 🛒
+                </a>
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-6">
+                    Tu tienda de confianza para licencias digitales de software y gaming. Entregas inmediatas, seguras y garantizadas.
+                </p>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-gray-900 dark:text-white mb-4">Catálogo</h4>
+                <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                    <li><a href="/catalogo/windows" class="hover:text-sky-500 transition">Sistemas Windows</a></li>
+                    <li><a href="/catalogo/office" class="hover:text-sky-500 transition">Microsoft Office</a></li>
+                    <li><a href="/catalogo/xbox" class="hover:text-sky-500 transition">Xbox Game Pass</a></li>
+                    <li><a href="/catalogo/todos" class="hover:text-sky-500 transition">Ver todo</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-gray-900 dark:text-white mb-4">Soporte</h4>
+                <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+                    <li><a href="#" class="hover:text-sky-500 transition">Preguntas Frecuentes</a></li>
+                    <li><a href="#" class="hover:text-sky-500 transition">Cómo activar tu clave</a></li>
+                    <li><a href="#" class="hover:text-sky-500 transition">Política de Reembolsos</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-bold text-gray-900 dark:text-white mb-4">Pagos Seguros</h4>
+                <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">
+                    Aceptamos transferencias directas y procesamos tus pedidos al instante vía WhatsApp.
+                </p>
+                <div class="flex gap-2 text-2xl grayscale opacity-70">
+                    💳 🏦 📱
+                </div>
+            </div>
+
+        </div>
+
+        <div class="border-t border-gray-100 dark:border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-sm text-gray-500 dark:text-gray-400">
+                &copy; {year} Cybercadito. Todos los derechos reservados.
+            </p>
+        </div>
+    </div>
+</footer>

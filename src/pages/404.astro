@@ -1,0 +1,21 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Página no encontrada">
+    <div class="flex flex-col items-center justify-center py-20 text-center min-h-[60vh]">
+        <div class="text-8xl mb-8 relative">
+            🐈💻
+            <div class="absolute -top-4 -right-4 text-4xl animate-bounce">⚡</div>
+        </div>
+        
+        <h1 class="text-5xl font-black text-gray-900 dark:text-white mb-4">¡Error 404!</h1>
+        <p class="text-xl text-gray-600 dark:text-gray-400 max-w-lg mb-8 leading-relaxed">
+            Parece que nuestro gato naranja, Oliver, se paseó en cuatro patas por encima del teclado del servidor y esta página desapareció en el ciberespacio.
+        </p>
+        
+        <a href="/" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-4 px-8 rounded-xl transition-all shadow-lg shadow-sky-500/30 hover:-translate-y-1">
+            Regresar a la Base 🚀
+        </a>
+    </div>
+</MainLayout>
